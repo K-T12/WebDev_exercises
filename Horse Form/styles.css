@@ -1,0 +1,87 @@
+h1{
+  text-align: center;
+  color: white
+}
+
+h2{
+  margin-top: 0.5rem;
+}
+
+p{
+  text-align: center;
+  color: white
+}
+div {
+  background-color: #708090;
+  border-radius: 10%;
+  padding: 1em 0;
+  box-shadow: 5px 5px 5px black;
+}
+body {
+  background-image: url("https://garden.spoonflower.com/c/11714128/p/f/m/HKfrcwx1b1Djih_0tI9OzOf4Y2tkPNJ69qchW1y4KKAhDG6XgSptSHiS3Q/(small%20scale)%20riding%20gear%20-%20equestrian%20horse%20equipment%20-%20pink%20-%20LAD21.jpg");
+  font-family: 'Times New Roman', serif;
+}
+form, div {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+fieldset {
+  padding: 1rem 1rem;
+  border:none;
+  border-radius: 10%;
+  background-color: #FFE4E1;
+  margin: 10 0;
+  box-shadow: 5px 5px 5px grey;
+}
+.inline{
+  display: inline;
+}
+label {
+  display: block;
+  margin: 0.5rem 0;
+  font-size: 1.5em;
+}
+
+#name, #email, #number, #dropdown {
+  height: 33px;
+}
+
+#name-label, #email-label, #number-label, #gender{
+  font-weight: bold;
+}
+
+
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+.bottom {
+  font-size: 2.5em;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.5rem;
+  background-color: #708090;
+  color: white;
+  min-width: 300px;
+  font-family: 'Times New Roman', serif;
+}
