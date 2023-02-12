@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link href="styles.css" rel="stylesheet"/>
+  </head>
+
+  <body>
+    <div>
+      <h1 id="title">Horse Evaluation</h1>
+      <p id="description">Fill the form before the training</p>
+    </div>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label" for="name">Name: <input id="name" name="name" type="text" placeholder="Enter your name" required/></label>
+        <label id="email-label" for="email">Email: <input id="email" name="email" type="email" placeholder="Enter your email" required/></label>
+        <label id="number-label"  for="number">Age: <input id="number" name="number" type="text" placeholder="Enter your age" pattern="[0-9]*" min="5" max="120"/></label>
+      </fieldset>
+      <fieldset>
+        <label id="gender">What's the gender of your horse?
+          <select id="dropdown">
+            <option value="">(select one)</option>
+            <option value="M">Male</option>
+            <option value="F">Female</option>
+            <option value="G">Gelding</option>
+        </select>
+      </label>
+      </fieldset>
+      <fieldset>
+        <h2>What's the breed of your horse?</h2>
+        <label for="AQH" id="breed"><input id="AQH" name="breed" type="radio" class="inline">American Quarter Horse</label>
+        <label for="arabian" id="breed"><input id="arabian" name="breed" type="radio" class="inline">Arabian</label>
+        <label for="thb" id="breed"><input id="arabian" name="breed" type="radio" class="inline">Thoroughbred</label>
+      </fieldset>
+      <fieldset>
+        <h2>What do you exercise?</h2>
+        <label id="exercises"><input type="checkbox" value="1" class="inline">Dressage</label>
+        <label id="exercises"><input type="checkbox" value="2" class="inline">Racing</label>
+        <label id="exercises"><input type="checkbox" value="3" class="inline">Western</label>
+        <label id="exercises"><input type="checkbox" value="4" class="inline">Groundwork</label>
+      </fieldset>
+      <fieldset>
+        <h2>Describe what do you struggle with
+          <textarea id="problems" name="problems" rows="9" cols="30">
+          </textarea>
+        </h2>
+      </fieldset>
+      <fieldset>
+        <input id="submit" type="submit" value="Submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>
+
+
